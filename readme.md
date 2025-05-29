@@ -1,71 +1,42 @@
-# 🔒 Lock Link – Client Preview Link Manager
+# 🔒 Lock Link – Preview Link Manager
 
-Create secure, expiring preview links for any WordPress page or even your whole site — no user accounts required. Perfect for freelancers, agencies, or businesses who want to safely share site previews with clients or testers.
-
----
-
-## ✨ Features
-
-- 🔐 **Token-Based Access** – Lock or unlock access with a unique link
-- 🌐 **Site-Wide or Per-Page** – Choose whether to share a single page or the entire site
-- ⏳ **Custom Expiry** – Set time-based or date-based expiration
-- 📊 **Client Info Bar** – Show client name and a live countdown on the frontend
-- 📁 **CSV Export** – Export all links, tokens, and data for reporting
-- 🧹 **Clean Uninstall** – Deletes all saved data when uninstalled
-- 📋 **Admin Dashboard UI** – Easy-to-use panel to generate, manage, and revoke links
+Create secure, expiring preview links for any WordPress page or your entire site. Ideal for sharing private previews with clients. No login required.
 
 ---
 
-## 📷 Screenshot
-
-<div align="center">
-    <img src="screenshot.jpg" width="400px"</img> 
-</div>
-
-> *Preview of the plugin dashboard inside WordPress.*
-
----
-
-## 🛠️ How It Works?!
-
-1. Go to **Preview Links** from the WordPress admin menu.
-2. You will understand yourself.
-3. If you tokenize entire website single pages tokenizing will not work.
-4. Even after removing token if a page/the site is not visitable, add a new token and delete it. It will work.
+**Features**
+- Token-based access
+- Page or full-site preview
+- Custom expiration
+- Client info bar (optional)
+- CSV export
+- Clean uninstall
 
 ---
 
-## 🧼 Uninstall Behavior
-
-- All saved preview tokens are **automatically removed** when you delete the plugin.
-- Token cookies are invalidated on the next visit.
+**Screenshot**  
+![Admin UI](https://github.com/acpSiam/WP-Lock-Link/blob/main/screenshot.png)
 
 ---
 
-## 🚀 Installation
-
-1. Prepare or Download the zip from here and upload it from pluggins in your wordpress.
-2. I havent yet planned to upload it in plugin store of WP.
-
----
-
-## ⚖️ License
-
-This plugin is licensed under the **GPLv2 or later**.  
-See [LICENSE](https://www.gnu.org/licenses/gpl-2.0.html) for full details.
+**Install**
+1. Upload ZIP via WordPress > Plugins > Add New
+2. Activate it
+3. Go to “Preview Links” in the dashboard
 
 ---
 
-## 👨‍💻 Author
-
-**acpSiam** – the Iltimas
-📧 [Hi Siam](mailto:acpsiam.com)  
-🌐 [acpsiam.top](https://acpsiam.top)
+**Uninstall**
+Deletes all saved tokens. Site becomes public again.
 
 ---
 
-## 🤝 Contributions Welcome
+**License**
+GPLv2 or later  
+[gnu.org/licenses/gpl-2.0](https://www.gnu.org/licenses/gpl-2.0.html)
 
-Found a bug? Want to improve something?  
-Feel free to open a pull request or issue — I’d love your input!
+---
 
+**Author**  
+acpSiam  
+[acpsiam.top](https://acpsiam.top) • [Email me](mailto:acpsiam@gmail.com)
